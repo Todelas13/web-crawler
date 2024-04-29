@@ -1,0 +1,30 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node main.js"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Todelas13/web-crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Todelas13/web-crawler/issues"
+  },
+  "homepage": "https://github.com/Todelas13/web-crawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
